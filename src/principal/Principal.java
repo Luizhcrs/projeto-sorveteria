@@ -48,7 +48,7 @@ public class Principal {
 				System.out.println("-----------------------------------");
 				System.out.println("Número inválido!");
 				System.out.println("-----------------------------------");
-
+				
 			}
 			// Switch para seleção dos menus
 			switch (i) {
@@ -99,7 +99,7 @@ public class Principal {
 			System.out.println("---------------");
 			System.out.println("Voltar ao menu: \n 0: Menu");
 			numero = ler.nextLine();
-
+			i = Integer.parseInt(numero);
 		}
 	}
 
